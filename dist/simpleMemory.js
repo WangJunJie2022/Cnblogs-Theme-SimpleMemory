@@ -4150,8 +4150,7 @@ function() {
 			"use strict";
 			function e(n) {
 				let t = {
-					init: () = >{
-						n.__event.scroll = {},
+					init: () = >{n.__event.scroll = {},
 						n.__event.scroll.handle = [],
 						n.__event.scroll.temScroll = 0,
 						n.__event.scroll.docScroll = $(document).scrollTop(),
